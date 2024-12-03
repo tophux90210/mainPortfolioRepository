@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: papayawhip;
+}
+#container {
+    width: 38rem;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    font-family:'Young Serif', Outfit;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+img {
+    width: 38rem;
+    border-radius: 1rem;
+}
+#prepTime {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+h4, #prepTime ul ::marker {
+    color: hsl(332, 51%, 32%);
+}
+li {
+    padding-bottom: 1rem;
+}
+p {
+    font-size: 16px;
+}
+h2, ol ::marker {
+    color: hsl(14, 45%, 36%);
+}
+table, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    border-color: rgba(128, 128, 128, 0.5);
+    padding-bottom: 1rem ;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
